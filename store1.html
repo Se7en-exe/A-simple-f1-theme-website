@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Store</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="css/store1.css" />
+    <link rel="icon" href="img/f1icon2.png">
+    <script src="js/store1.js" async></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <a href="index.html"><img src="img/F1.svg.png" alt="" width="" height="45"></a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store1.html">STORE</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+        <div class="container recomm">
+            <h1 class="band-name band-name-large">Welcome to the official Formula One online store</h1>
+        </div>
+    </header>
+    <div class="slider sli">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="img/hd1.avif" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/hd2.avif" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/nav1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/latest1.avif" alt="">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <section class="container content-section">
+        <h2 class="section-header">Drivers</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Max Verstappen</span>
+                <a href="Max Verstappen.html">
+                    <img class="shop-item-image" src="img/driver1.avif">
+                </a>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$66.61
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button
+                            class="btn btn-primary shop-item-button" type="button">ADD
+                            TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Esteban Ocon</span>
+                <a href="javascript:void(0);">
+                    <img class="shop-item-image" src="img/driver6.avif">
+                </a>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$66.62</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Lewis Hamilton</span>
+                <a href="javascript:void(0);">
+                    <img class="shop-item-image" src="img/driver3.avif">
+                </a>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$66.63</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Zhou Guanyu</span>
+                <a href="javascript:void(0);">
+                    <img class="shop-item-image" src="img/driver4.avif">
+                </a>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$66.64</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Pierre Gasly</span>
+                <a href="javascript:void(0);">
+                    <img class="shop-item-image" src="img/driver7.avif">
+                </a>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$66.65</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Charles Leclerc</span>
+                <a href="javascript:void(0);">
+                    <img class="shop-item-image" src="img/driver2.avif">
+                </a>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$66.66</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <!-- 商品列表区域 -->
+        <ul id="productList"></ul>
+
+        <!-- 排序和搜索功能 -->
+        <input type="text" id="search" placeholder="搜索商品">
+        <button onclick="search()">搜索</button>
+        <button onclick="sortAlphabetically()">按名称排序</button>
+        <button onclick="sortPrice()">按价格排序</button>
+
+        <script src="js/shopping.js"></script>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CARS</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Aston Martin AMR23</span>
+                <img class="shop-item-image" src="img/car3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$66.67</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Red Bull RB19</span>
+                <img class="shop-item-image" src="img/car4.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$66.68</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <footer id="fooooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-md-0 ">
+                    <h3 class="fw-bold text-white">About F1</h3>
+                    <p class="text-secondary">Formula One (F1) </p>
+                    <ul class="list-unstyled mt-4 aboutt">
+                        <li><a href="javascript:void(0);" class="text-white">The Team</a></li>
+                        <li><a href="javascript:void(0);" class="text-white">Careers</a></li>
+                        <li><a href="javascript:void(0);" class="text-white">Corporate Info</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-5 mb-md-0 d-center">
+                    <h3 class="fw-bold text-white">Connect with us</h3>
+                    <ul class="tubiaos">
+                        <li class="nav-item"><a href="javascript:void(0);" id="tubiao1"
+                                class="text-decoration-none"></a></li>
+                        <li class="nav-item"><a href="javascript:void(0);" id="tubiao2"
+                                class="text-decoration-none"></a></li>
+                        <li class="nav-item"><a href="javascript:void(0);" id="tubiao3"
+                                class="text-decoration-none"></a></li>
+                        <li class="nav-item"><a href="javascript:void(0);" id="tubiao4"
+                                class="text-decoration-none"></a></li>
+                    </ul>
+                    <p class="mt-4 text-secondary text-center">Stay in touch with us on social media.</p>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center f4">
+                    <h3 class="fw-bold  text-white">News letter</h3>
+                    <p class="text-secondary">Get the latest news.</p>
+                    <form>
+                        <div class="form-group mb-4">
+                            <input type="email" class="form-control rounded" placeholder="Email Address">
+                        </div>
+                        <button type="submit" class="btn btn-primary px-5" id="btnn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-4 py-2 f3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start" id="f1234">
+                        <p class="mb-0 " id="f2">&copy; F1 2023. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end f12">
+                        <ul class="list-inline mb-0" id="f123">
+                            <li class="list-inline-item fw-bold"><a href="javascript:void(0);" class="">Terms of Use</a>
+                            </li>
+                            <li class="list-inline-item fw-bold"><a href="javascript:void(0);" class="">Privacy
+                                    Policy</a></li>
+                            <li class="list-inline-item fw-bold"><a href="javascript:void(0);" class="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

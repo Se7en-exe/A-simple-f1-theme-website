@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background: #f1fbff;
+    margin: 0;
+    padding: 0px;
+}
+#roww {
+    padding: 80px;
+}
+.login-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.login-wrapper img {
+    margin-right: 10px;
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav li a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+
+.navbar-nav li div a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 0;
+}
+.navbar .getstarted {
+    background: #106eea;
+    margin-left: 30px;
+    border-radius: 4px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    line-height: 2.3;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+.jumbotron {
+    background-image: url('../img/nav2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.category {
+    margin-top: 20px;
+}
+
+.category h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.category .card {
+    margin-bottom: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.category .card:hover {
+    background-color: rgba(0, 0, 0, 0.856);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0px, -5px);
+}
+.category .card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.category .card-title {
+    text-decoration: none;
+    margin: 10px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+}
+
+.category .card-title:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.category .card:hover .card-title {
+    text-decoration: none;
+}
+.category .card-text {
+    text-decoration: none;
+    margin: 10px 0 0;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+#fooooter {
+    padding: 0px;
+}
+
+footer a:hover {
+    text-decoration: underline red;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+.footercolor {
+    background-color: #15151f;
+}
+
+.tubiaos a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    padding: 30px;
+}
+
+#tubiao1 {
+    background: url(../img/tt.png) no-repeat;
+}
+#tubiao1:hover {
+    background: url(../img/tt1.png) no-repeat;
+}
+#tubiao2 {
+    background: url(../img/tt2.png) no-repeat;
+}
+#tubiao2:hover {
+    background: url(../img/tt3.png) no-repeat;
+}
+#tubiao3 {
+    background: url(../img/tt4.png) no-repeat;
+}
+#tubiao3:hover {
+    background: url(../img/tt5.png) no-repeat;
+}
+#tubiao4 {
+    background: url(../img/tt6.png) no-repeat;
+}
+#tubiao4:hover {
+    background: url(../img/tt7.png) no-repeat;
+}
+#f123 li{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+#f123 li a {
+    color: #f1fbff;
+}
+#f2{
+    color: #f8fbff;
+}
+.f3 {
+    background-color: #1b1b25;
+}
+.f4 {
+        padding-left: 200px;
+        padding-bottom: 20px;
+}

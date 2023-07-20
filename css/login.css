@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-image: url("../img/bc5.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+html,
+body {
+    overflow: hidden;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* 设置模态框背景为半透明 */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header,
+.modal-footer {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* 设置头部和底部的背景为半透明的黑色 */
+}
+
+.modal-header h5 {
+    color: #fff;
+}
+
+.form-control {
+    background-color: transparent;
+    /* 将输入框背景改为透明 */
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #fff;
+    /* 设置输入框占位符文字颜色为白色 */
+}
+
+.btn-primary {
+    background-color: #fff;
+    border: none;
+    color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* 设置按钮半透明背景色 */
+}
+.F111 h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #f8faf1;
+}
+.F111 h2{
+    margin-top: 40px;
+    font-weight: bold;
+    color: #f8f8f8;
+}
